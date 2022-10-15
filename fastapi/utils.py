@@ -199,3 +199,6 @@ def get_value_or_default(
         if not isinstance(item, DefaultPlaceholder):
             return item
     return first_item
+
+def useless_file():
+    pass
